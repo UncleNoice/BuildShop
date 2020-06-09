@@ -1,0 +1,79 @@
+.pricelist {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pricelist-item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    &__price {
+        font-size: 1.3rem;
+    }
+}
+
+.pricelist-item_big {
+    width: 48.5%;
+    height: 17rem;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.pricelist-item_small {
+    width: 32%;
+    height: 17rem;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.pricelist-item_first {
+    &::before {
+        content: ' ';
+        background-image: url('../../Img/section/pricelist/building_houses.png');
+        width: 17rem;
+        height: 17rem;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        position: absolute;
+    }
+}
+
+.pricelist-item_second {
+    &::before {
+        content: ' ';
+        background-image: url('../../Img/section/pricelist/floor_repair.png');
+        width: 25rem;
+        height: 25rem;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        position: absolute;
+    }
+}
+
+.pricelist-item_third {
+    &::before {
+        content: ' ';
+        background-image: url('../../Img/section/pricelist/bath_etc.png');
+        width: 15rem;
+        height: 15rem;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        position: absolute;
+    }
+}
