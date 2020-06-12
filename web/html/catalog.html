@@ -2,223 +2,223 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/css/main.css" type="text/css">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style/css/main.css" type="text/css">
+	<title>Document</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header header_white">
-            <div class="header__content">
-                <nav class="nav">
-                    <h1><a href="#" class="link"><span class="logo logo_nav">Logo</span></a></h1>
-                    <ul class="nav__block">
-                        <li class="nav__item"><a href="#" class="link">Каталог</a></li>
-                        <li class="nav__item"><a href="#" class="link">Галерея</a></li>
-                        <li class="nav__item"><a href="#" class="link">Отзывы</a></li>
-                        <li class="nav__item"><a href="#" class="link">Контакты</a></li>
-                    </ul>
-                    <div class="nav__contact">
-                        <div class="nav__callback">
-                            <a class="link link_contact" href=""><span class="nav__number">8-800-555-35-35</span></a>
-                            <a class="link" href=""><span class="nav__mail">site@gmail.com</span></a>
-                        </div>
-                        <button class="button">Заказать звонок</button>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <div class="filter">
-            <div class="filter__content">
-                <ul class="breadcrumbs">
-                    <li class="breadcrumbs__item"><a href="#" class="link">Главная</a></li>
-                    <li class="breadcrumbs__item"><a href="#" class="link">Каталог</a></li>
-                    <li class="breadcrumbs__item"><a href="#" class="link">Строительство домов</a></li>
-                </ul>
-                <h1 class="filter__title">Строительство домов</h1>
-                <form class="form form_grid form_grid-3col form_grid-col-gap-3">
-                    <div class="form__group">
-                        <label for="tech">Технология</label>
-                        <select class="form__dropdownlist" name="tech" id="tech">
-                            <option value="Клееный брус">Клееный брус</option>
-                            <option value="Клееный брус">Клееный брус</option>
-                            <option value="Клееный брус">Клееный брус</option>
-                        </select>
+<div class="wrapper">
+	<header class="header header_white">
+		<div class="header__content">
+			<nav class="nav">
+				<h1><a href="#" class="link"><span class="logo logo_nav">Logo</span></a></h1>
+				<ul class="nav__block">
+					<li class="nav__item"><a href="#" class="link">Каталог</a></li>
+					<li class="nav__item"><a href="#" class="link">Галерея</a></li>
+					<li class="nav__item"><a href="#" class="link">Отзывы</a></li>
+					<li class="nav__item"><a href="#" class="link">Контакты</a></li>
+				</ul>
+				<div class="nav__contact">
+					<div class="nav__callback">
+						<a class="link link_contact" href=""><span class="nav__number">8-800-555-35-35</span></a>
+						<a class="link" href=""><span class="nav__mail">site@gmail.com</span></a>
+					</div>
+					<button class="button">Заказать звонок</button>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="filter">
+		<div class="filter__content">
+			<ul class="breadcrumbs">
+				<li class="breadcrumbs__item"><a href="#" class="link">Главная</a></li>
+				<li class="breadcrumbs__item"><a href="#" class="link">Каталог</a></li>
+				<li class="breadcrumbs__item"><a href="#" class="link">Строительство домов</a></li>
+			</ul>
+			<h1 class="filter__title">Строительство домов</h1>
+			<form class="form form_grid form_grid-3col form_grid-col-gap-3">
+				<div class="form__group">
+					<label for="tech">Технология</label>
+					<select class="form__dropdownlist" name="tech" id="tech">
+						<option value="Клееный брус">Клееный брус</option>
+						<option value="Клееный брус">Клееный брус</option>
+						<option value="Клееный брус">Клееный брус</option>
+					</select>
 
-                    </div>
-                    <div class="form__group">
-                        <label for="type">Тип дома</label>
-                        <select class="form__dropdownlist" name="type" id="type">
-                            <option value="Клееный брус">Дачный дом</option>
-                            <option value="Клееный брус">Клееный брус</option>
-                            <option value="Клееный брус">Клееный брус</option>
-                        </select>
-                    </div>
-                    <div class="form__group">
-                        <label for="area[]">Площадь м<sup><small>2</small></sup></label>
-                        <div class="form__double-input">
-                            <input class="form__input" type="text" name="area[from]" placeholder="от">
-                            <input class="form__input" type="text" name="area[to]" placeholder="до">
-                        </div>
-                    </div>
-                    <div class="form__group">
-                        <label for="floor[]">Количество этажей</label>
-                        <div class="form__double-input">
-                            <input class="form__input" type="text" name="floor[from]" placeholder="от">
-                            <input class="form__input" type="text" name="floor[to]" placeholder="до">
-                        </div>
-                    </div>
-                    <div class="form__group">
-                        <label for="cost[]">Стоймтость</label>
-                        <div class="form__double-input">
-                            <input class="form__input" type="text" name="cost[from]" placeholder="от">
-                            <input class="form__input" type="text" name="cost[to]" placeholder="до">
-                        </div>
-                    </div>
-                    <div class="form__group">
-                        <label for="additional">Дополнительно</label>
-                        <div class="checkbox checkbox_grid-2col">
-                            <div class="checkbox__item">
-                                <input type="checkbox" name="additional[0]" value="0">
-                                <label for="additional[0]">Терраса</label>
-                            </div>
-                            <div class="checkbox__item">
-                                <input type="checkbox" name="additional[1]" value="1">
-                                <label for="additional[1]">Мансарда</label>
-                            </div>
-                            <div class="checkbox__item">
-                                <input type="checkbox" name="additional[2]" value="2">
-                                <label for="additional[2]">Гараж</label>
-                            </div>
-                            <div class="checkbox__item">
-                                <input type="checkbox" name="additional[3]" value="3">
-                                <label for="additional[3]">Балкон/Лоджия</label>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="content">
-            <div class="sort">
-                <form class="form" action="">
-                    <div class="form__group form__group_horizontal">
-                        <label for="sort">Сортировать по: </label>
-                        <select class="form__dropdownlist form__dropdownlist_simple" name="tech" id="tech">
-                            <option value="Клееный брус">площади</option>
-                            <option value="Клееный брус">стоймости</option>
-                            <option value="Клееный брус">рейтингу</option>
-                        </select>
-                    </div>
-                </form>
-            </div>
-            <section class="catalog">
-                <div class="catalog__grid">
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                    <div class="catalog-item">
-                        <p class="catalog-item__price">1.5 млн</p>
-                        <img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
-                        <h3 class="catalog-item__title">Коттедж 10X8</h3>
-                        <p class="catalog-item__name">"Сосновый бор"</p>
-                    </div>
-                </div>
-                <button class="button"><img src="../Img/catalog/Vector.png" alt=""> Показать больше</button>
-            </section>
-        </div>
-        <footer class="footer">
-            <div class="footer__content">
-                <div class="footer__item">
-                    <h2><span class="logo logo_footer">ЛОГОТИП</span></h2>
-                    <p>Ремонт и строительные работы
-                        В Караганде и Карагандинской обл.
-                    </p>
-                    <div class="footer__callback">
-                        <span class="footer__number">8-800-500-35-35</span>
-                        <a href="#" class="link link_yellow link_underline">заказать звонок</a>
-                    </div>
-                    <a href="#" class="link link_white">siteremont@gmail.com</a>
-                    <span class="copyright">copyright</span>
-                </div>
-                <div class="footer__item">
-                    <ul class="footer__block">
-                        <li class="footer__service footer_category"><a href="#" class="link link_white"><span
-                                    class="footer__category">Каталог</span></a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Коттеджи</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Дачные дома</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Дома из бруса</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Каркасные дома</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Бани</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Беседки</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Евроремонт</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Капитальный ремонт</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Косметическйи ремонт</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Индивдуальные проекты</a></li>
-                    </ul>
-                </div>
-                <div class="footer__item">
-                    <ul class="footer__block">
-                        <li class="footer__service footer_category"><a href="#" class="link link_white"><span
-                                    class="footer__category">Услуги</span></a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Найм бригад</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Достройка и реконструкция</a>
-                        </li>
-                        <li class="footer__service"><a href="#" class="link link_white">Проектирование домов</a></li>
-                        <li class="footer__service"><a href="#" class="link link_white">Разработка дизайна
-                                интерьеров</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </div>
+				</div>
+				<div class="form__group">
+					<label for="type">Тип дома</label>
+					<select class="form__dropdownlist" name="type" id="type">
+						<option value="Клееный брус">Дачный дом</option>
+						<option value="Клееный брус">Клееный брус</option>
+						<option value="Клееный брус">Клееный брус</option>
+					</select>
+				</div>
+				<div class="form__group">
+					<label for="area[]">Площадь м<sup><small>2</small></sup></label>
+					<div class="form__double-input">
+						<input class="form__input" type="text" name="area[from]" placeholder="от">
+						<input class="form__input" type="text" name="area[to]" placeholder="до">
+					</div>
+				</div>
+				<div class="form__group">
+					<label for="floor[]">Количество этажей</label>
+					<div class="form__double-input">
+						<input class="form__input" type="text" name="floor[from]" placeholder="от">
+						<input class="form__input" type="text" name="floor[to]" placeholder="до">
+					</div>
+				</div>
+				<div class="form__group">
+					<label for="cost[]">Стоймтость</label>
+					<div class="form__double-input">
+						<input class="form__input" type="text" name="cost[from]" placeholder="от">
+						<input class="form__input" type="text" name="cost[to]" placeholder="до">
+					</div>
+				</div>
+				<div class="form__group">
+					<label for="additional">Дополнительно</label>
+					<div class="checkbox checkbox_grid-2col">
+						<div class="checkbox__item">
+							<input type="checkbox" name="additional[0]" value="0">
+							<label for="additional[0]">Терраса</label>
+						</div>
+						<div class="checkbox__item">
+							<input type="checkbox" name="additional[1]" value="1">
+							<label for="additional[1]">Мансарда</label>
+						</div>
+						<div class="checkbox__item">
+							<input type="checkbox" name="additional[2]" value="2">
+							<label for="additional[2]">Гараж</label>
+						</div>
+						<div class="checkbox__item">
+							<input type="checkbox" name="additional[3]" value="3">
+							<label for="additional[3]">Балкон/Лоджия</label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="content">
+		<div class="sort">
+			<form class="form" action="">
+				<div class="form__group form__group_horizontal">
+					<label for="sort">Сортировать по: </label>
+					<select class="form__dropdownlist form__dropdownlist_simple" name="tech" id="tech">
+						<option value="Клееный брус">площади</option>
+						<option value="Клееный брус">стоймости</option>
+						<option value="Клееный брус">рейтингу</option>
+					</select>
+				</div>
+			</form>
+		</div>
+		<section class="catalog">
+			<div class="catalog__grid">
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+				<div class="catalog-item">
+					<p class="catalog-item__price">1.5 млн</p>
+					<img class="catalog-item__img" src="../Img/catalog/house.png" alt="">
+					<h3 class="catalog-item__title">Коттедж 10X8</h3>
+					<p class="catalog-item__name">"Сосновый бор"</p>
+				</div>
+			</div>
+			<button class="button"><img src="../Img/catalog/Vector.png" alt=""> Показать больше</button>
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="footer__content">
+			<div class="footer__item">
+				<h2><span class="logo logo_footer">ЛОГОТИП</span></h2>
+				<p>Ремонт и строительные работы
+					В Караганде и Карагандинской обл.
+				</p>
+				<div class="footer__callback">
+					<span class="footer__number">8-800-500-35-35</span>
+					<a href="#" class="link link_yellow link_underline">заказать звонок</a>
+				</div>
+				<a href="#" class="link link_white">siteremont@gmail.com</a>
+				<span class="copyright">copyright</span>
+			</div>
+			<div class="footer__item">
+				<ul class="footer__block">
+					<li class="footer__service footer_category"><a href="#" class="link link_white"><span
+							class="footer__category">Каталог</span></a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Коттеджи</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Дачные дома</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Дома из бруса</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Каркасные дома</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Бани</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Беседки</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Евроремонт</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Капитальный ремонт</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Косметическйи ремонт</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Индивдуальные проекты</a></li>
+				</ul>
+			</div>
+			<div class="footer__item">
+				<ul class="footer__block">
+					<li class="footer__service footer_category"><a href="#" class="link link_white"><span
+							class="footer__category">Услуги</span></a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Найм бригад</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Достройка и реконструкция</a>
+					</li>
+					<li class="footer__service"><a href="#" class="link link_white">Проектирование домов</a></li>
+					<li class="footer__service"><a href="#" class="link link_white">Разработка дизайна
+						интерьеров</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
 </body>
 
 </html>

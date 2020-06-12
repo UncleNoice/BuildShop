@@ -1,101 +1,101 @@
 :root {
-    font-size: 18px;
+	font-size: 18px;
 }
 
-*+* {
-    margin: 0;
-    padding: 0;
+* + * {
+	margin: 0;
+	padding: 0;
 }
 
 html,
 body {
-    height: 100%;
+	height: 100%;
 }
 
 body {
-    max-width: 1440px;
-    margin: 0 auto;
-    font-size: 1rem;
-    background-color: $lendingBgColor;
+	max-width: 1440px;
+	margin: 0 auto;
+	font-size: 1rem;
+	background-color: $lendingBgColor;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
-p{
-    margin: 0;
+p {
+	margin: 0;
 }
 
-section{
-    margin: 4rem 0;
+section {
+	margin: 4rem 0;
 }
 
 .header_lending {
-    min-height: 700px;
+	min-height: 700px;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	position: relative;
 }
 
-.bg_img{
-    width:100%;
-    position: absolute;
-    z-index: -1;
+.bg_img {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
 }
 
 .content {
-    flex: 1 0 auto;
-    width: 80%;
-    margin: 0 auto;
+	flex: 1 0 auto;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .footer {
-    flex: 0 0 auto;
+	flex: 0 0 auto;
 }
 
 .link {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
 }
 
-.link_white{
-    color: white;
+.link_white {
+	color: white;
 }
 
 .link_contact {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
-.link_underline{
-    text-decoration: underline;
+.link_underline {
+	text-decoration: underline;
 }
 
-.link_yellow{
-    color: $color_shadow;
+.link_yellow {
+	color: $color_shadow;
 }
 
 .logo {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
-.logo_footer{
-    color: $color_shadow;
+.logo_footer {
+	color: $color_shadow;
 }
 
 .button {
-    border: none;
-    padding: 1rem 1.5rem;
-    font-weight: bold;
-    background: linear-gradient(180deg, $color 0%, $color_shadow 100%);
-    box-shadow: 0px 4px 0px $color; 
+	border: none;
+	padding: 1rem 1.5rem;
+	font-weight: bold;
+	background: linear-gradient(180deg, $color 0%, $color_shadow 100%);
+	box-shadow: 0px 4px 0px $color;
 }
 
-.copyright{
-    font-weight: bold;
+.copyright {
+	font-weight: bold;
 }

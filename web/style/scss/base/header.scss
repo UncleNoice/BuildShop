@@ -1,75 +1,79 @@
-.header_white{
-    background-color: white;
-    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+.header_white {
+	background-color: white;
+	box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
 }
 
-.header__content{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
-    padding: 25px 0 25px 0;
+.header__content {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+	padding: 25px 0 25px 0;
 
-    .header__about{
-        margin-top: 30px;
-        width: 50%;
-        display: flex;
-        flex-direction: column;
+	.header__about {
+		margin-top: 30px;
+		width: 50%;
+		display: flex;
+		flex-direction: column;
 
-        .header__title{
-            font-size: 2rem;
-            text-transform: uppercase;
-            font-weight: bold;
-            line-height: 135%;
-            margin-bottom: 2rem;
-        }
+		.header__title {
+			font-size: 2rem;
+			text-transform: uppercase;
+			font-weight: bold;
+			line-height: 135%;
+			margin-bottom: 2rem;
+		}
 
-        .header__discription{
-            font-size: 1.2rem;
-            line-height: 135%;
-            color: white;
-        }
+		.header__discription {
+			font-size: 1.2rem;
+			line-height: 135%;
+			color: white;
+		}
 
-        .button{
-            margin-top: 2rem;
-            width: 50%;
-        }
-    }
+		.button {
+			margin-top: 2rem;
+			width: 50%;
+		}
+	}
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
-    .nav__block{
-        display: flex;
-        .nav__item{
-            margin: 0 1.6rem;
-            &:last-child{
-                margin-right:0px;
-            }
-            &:first-child{
-                margin-left:0px;
-            }
-        }
-    }
+	.nav__block {
+		display: flex;
 
-    .nav__contact{
-        display: flex;
-        justify-content: space-between;
-        width: 35%;
-        .nav__callback{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+		.nav__item {
+			margin: 0 1.6rem;
 
-            .nav__number{
-                font-size: 1.3rem;
-                font-weight: bold;
-                margin-bottom: 15px;
-            }
-        }
-    }
+			&:last-child {
+				margin-right: 0px;
+			}
+
+			&:first-child {
+				margin-left: 0px;
+			}
+		}
+	}
+
+	.nav__contact {
+		display: flex;
+		justify-content: space-between;
+		width: 35%;
+
+		.nav__callback {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.nav__number {
+				font-size: 1.3rem;
+				font-weight: bold;
+				margin-bottom: 15px;
+			}
+		}
+	}
 }

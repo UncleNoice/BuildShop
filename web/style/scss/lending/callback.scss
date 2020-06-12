@@ -1,43 +1,43 @@
 .callback {
-    overflow: hidden;
-    position: relative;
-    background-color: white;
-    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
-    padding: 2rem 2rem;
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+	padding: 2rem 2rem;
 
-    &::before {
-        position: absolute;
-        content: ' ';
-        background-image: url('../../Img/section/callback/woman.png');
-        background-size: cover;
-        width: 25rem;
-        height: 25rem;
-        bottom: 0;
-        right: 0;
-    }
+	&::before {
+		position: absolute;
+		content: ' ';
+		background-image: url('../../Img/section/callback/woman.png');
+		background-size: cover;
+		width: 25rem;
+		height: 25rem;
+		bottom: 0;
+		right: 0;
+	}
 
-    &__info {
-        font-size: 1.1rem;
-        font-weight: bold;
-    }
+	&__info {
+		font-size: 1.1rem;
+		font-weight: bold;
+	}
 
-    & .form {
-        width: 60%;
+	& .form {
+		width: 60%;
 
-        .button {
-            width: 17rem;
-        }
+		.button {
+			width: 17rem;
+		}
 
-        &__input {
-            width: 15rem;
-        }
+		&__input {
+			width: 15rem;
+		}
 
-        & p {
-            color: #808080;
-            font-size: 0.8rem;
-            font-style: italic;
-            margin: auto 0;
-        }
+		& p {
+			color: #808080;
+			font-size: 0.8rem;
+			font-style: italic;
+			margin: auto 0;
+		}
 
-    }
+	}
 }

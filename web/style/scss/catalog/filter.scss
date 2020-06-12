@@ -1,56 +1,56 @@
 .filter {
-    position: relative;
-    margin: 1rem 0;
-    background-color: #EEEEEE;
-    z-index: 1;
+	position: relative;
+	margin: 1rem 0;
+	background-color: #EEEEEE;
+	z-index: 1;
 
-    &__content {
-        margin: 0 auto;
-        width: 80%;
-    }
+	&__content {
+		margin: 0 auto;
+		width: 80%;
+	}
 
-    .form {
-        width: 65%;
-        min-width: 40rem;
-    }
+	.form {
+		width: 65%;
+		min-width: 40rem;
+	}
 
-    &::before {
-        position: absolute;
-        content: ' ';
-        background-image: url('../../Img/catalog/empire-cranes-services-machine.png');
-        background-size: cover;
-        width: 28rem;
-        height: 28rem;
-        bottom: 0;
-        right: 0;
-        z-index: -1;
-    }
-} 
+	&::before {
+		position: absolute;
+		content: ' ';
+		background-image: url('../../Img/catalog/empire-cranes-services-machine.png');
+		background-size: cover;
+		width: 28rem;
+		height: 28rem;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+	}
+}
 
 .breadcrumbs {
-    display: flex;
+	display: flex;
 
-    &__item {
-        position: relative;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+	&__item {
+		position: relative;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
 
-        &:first-child {
-            margin-left: 0;
+		&:first-child {
+			margin-left: 0;
 
-            &::before {
-                content: '';
-            }
-        }
+			&::before {
+				content: '';
+			}
+		}
 
-        &:last-child {
-            margin-right: 0;
-        }
+		&:last-child {
+			margin-right: 0;
+		}
 
-        &::before {
-            position: absolute;
-            content: "/";
-            left: -0.5rem;
-        }
-    }
+		&::before {
+			position: absolute;
+			content: "/";
+			left: -0.5rem;
+		}
+	}
 }

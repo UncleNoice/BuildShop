@@ -1,42 +1,42 @@
-.reviews{
+.reviews {
 
-    &__block{
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        padding-bottom: 6rem;
-    }
+	&__block {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		padding-bottom: 6rem;
+	}
 
-    &__content{
-        box-sizing: border-box;
-        width: 70%;
-        height: 16.5rem;
-        background-color: white; 
-        box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.15);
-        padding: 30px 0 30px 30px;
-    }
+	&__content {
+		box-sizing: border-box;
+		width: 70%;
+		height: 16.5rem;
+		background-color: white;
+		box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.15);
+		padding: 30px 0 30px 30px;
+	}
 
-    &__text{
-        width: 60%;
-    }
+	&__text {
+		width: 60%;
+	}
 
-    &__author{
-        font-size: 1.3rem;
-        margin: 0 0 1rem 0;
-        font-weight:normal;
-    }
+	&__author {
+		font-size: 1.3rem;
+		margin: 0 0 1rem 0;
+		font-weight: normal;
+	}
 
-    &__img{
-        box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.15);
-        width: 55%;
-        position: absolute;
-        bottom:0;
-        right:0;
-    }
+	&__img {
+		box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.15);
+		width: 55%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
 }
 
-.slider__buttons{
-    display: flex;
-    justify-content: space-around;
-    width: 10rem;
+.slider__buttons {
+	display: flex;
+	justify-content: space-around;
+	width: 10rem;
 }
