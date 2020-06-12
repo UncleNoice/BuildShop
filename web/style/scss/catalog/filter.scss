@@ -26,31 +26,3 @@
 		z-index: -1;
 	}
 }
-
-.breadcrumbs {
-	display: flex;
-
-	&__item {
-		position: relative;
-		margin-left: 0.5rem;
-		margin-right: 0.5rem;
-
-		&:first-child {
-			margin-left: 0;
-
-			&::before {
-				content: '';
-			}
-		}
-
-		&:last-child {
-			margin-right: 0;
-		}
-
-		&::before {
-			position: absolute;
-			content: "/";
-			left: -0.5rem;
-		}
-	}
-}
