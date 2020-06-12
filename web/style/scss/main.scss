@@ -1,14 +1,28 @@
+// global styles
 @import 'variables.scss';
 @import 'normalize.scss';
-@import 'base.scss';
-@import 'form';
+// base styles
+@import 'base/base.scss';
+@import 'base/form.scss';
+
+// header starts
+@import 'base/header.scss';
+// header ends
+
+// here start styles for lending-page
+@import 'lending/pricelist.scss';
+@import 'lending/about.scss';
+@import 'lending/review.scss';
+@import 'lending/contact.scss';
+@import 'lending/callback.scss';
+// here end styles for lending-page
+
+// here start syles for catalog
+@import 'catalog/filter.scss';
+@import 'catalog/catalog.scss';
+// here end syles for catalog
 
 
-@import 'header.scss';
-@import 'pricelist.scss';
-@import 'about.scss';
-@import 'review.scss';
-@import 'contact.scss';
-@import 'callback.scss';
-
-@import 'footer.scss';
+// footer starts
+@import 'base/footer.scss';
+// footer ends

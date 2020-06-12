@@ -1,9 +1,14 @@
+.header_white{
+    background-color: white;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+}
+
 .header__content{
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    padding: 50px 0 0 0;
+    padding: 25px 0 25px 0;
 
     .header__about{
         margin-top: 30px;
