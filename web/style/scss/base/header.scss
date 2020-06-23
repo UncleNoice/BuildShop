@@ -1,79 +1,88 @@
-.header_white {
-	background-color: white;
-	box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
-}
+.header {
 
-.header__content {
-	display: flex;
-	flex-direction: column;
-	width: 80%;
-	margin: 0 auto;
-	padding: 10px 0 10px 0;
+	&__content {
+		display: flex;
+		flex-direction: column;
+		width: $content_width;
+		margin: 0 auto;
+		padding: 10px 0 10px 0;
+	}
 
-	.header__about {
+	&__about {
 		margin-top: 30px;
 		width: 50%;
 		display: flex;
 		flex-direction: column;
-
-		.header__title {
-			font-size: 2rem;
-			text-transform: uppercase;
-			font-weight: bold;
-			line-height: 135%;
-			margin-bottom: 2rem;
-		}
-
-		.header__discription {
-			font-size: 1.2rem;
-			line-height: 135%;
-			color: white;
-		}
 
 		.button {
 			margin-top: 2rem;
 			width: 50%;
 		}
 	}
+
+	&__title {
+		font-size: 2rem;
+		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 135%;
+		margin-bottom: 2rem;
+	}
+
+	&__discription {
+		font-size: 1.2rem;
+		line-height: 135%;
+		color: white;
+	}
+
+	&_white {
+		background-color: white;
+		box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+	}
+
+	&__lending {
+		min-height: 700px;
+	}
 }
+
 
 .nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 
-	.nav__block {
+	&__block {
 		display: flex;
+	}
 
-		.nav__item {
-			margin: 0 1.6rem;
+	&__item {
+		margin: 0 1.3rem;
 
-			&:last-child {
-				margin-right: 0px;
-			}
+		&:last-child {
+			margin-right: 0px;
+		}
 
-			&:first-child {
-				margin-left: 0px;
-			}
+		&:first-child {
+			margin-left: 0px;
 		}
 	}
 
-	.nav__contact {
+	&__contact {
 		display: flex;
 		justify-content: space-between;
-		width: 35%;
-
-		.nav__callback {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-
-			.nav__number {
-				font-size: 1.3rem;
-				font-weight: bold;
-				margin-bottom: 15px;
-			}
-		}
+		width: 22rem;
 	}
+
+	&__callback {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__number {
+		font-size: 1.2rem;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
 }

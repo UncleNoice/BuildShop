@@ -1,5 +1,5 @@
 :root {
-	font-size: 18px;
+	font-size: 15px;
 }
 
 * + * {
@@ -32,10 +32,6 @@ section {
 	margin: 4rem 0;
 }
 
-.header_lending {
-	min-height: 700px;
-}
-
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -51,7 +47,7 @@ section {
 
 .content {
 	flex: 1 0 auto;
-	width: 80%;
+	width: $content_width;
 	margin: 0 auto;
 }
 
@@ -62,22 +58,34 @@ section {
 .link {
 	text-decoration: none;
 	color: black;
-}
+	transition: 300ms;
 
-.link_white {
-	color: white;
-}
+	&:hover {
+		transition: 300ms;
+		font-size: 1.1rem;
+	}
 
-.link_contact {
-	margin-bottom: 10px;
-}
+	&_white {
+		color: white;
+	}
 
-.link_underline {
-	text-decoration: underline;
-}
+	&_contact {
+		margin-bottom: 10px;
+	}
 
-.link_yellow {
-	color: $color_shadow;
+	&_underline {
+		text-decoration: underline;
+	}
+
+	&_yellow {
+		color: $color_shadow;
+	}
+
+	&_nohover {
+		&:hover {
+			font-size: inherit;
+		}
+	}
 }
 
 .logo {

@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1100px) {
+	:root {
+		font-size: 14px;
+	}
+
+	.nav {
+		&__contact {
+			display: none;
+		}
+
+		.logo {
+			font-size: 3rem;
+		}
+
+		&__item {
+			font-size: 1.4rem;
+
+			.link {
+				&:hover {
+					font-size: 1.7rem;
+				}
+			}
+		}
+	}
+
+	.header {
+
+		&__about {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+			width: 100%;
+			margin-bottom: 2rem;
+
+			.button {
+				width: 14rem;
+				height: 3rem;
+			}
+		}
+
+		&__title {
+			width: 60%;
+			margin: 0;
+		}
+
+		&__discription {
+			display: none;
+		}
+	}
+
+	.pricelist {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		column-gap: 10px;
+
+		.pricelist-item {
+			width: 99%;
+			margin-bottom: 0;
+
+			&:nth-child(2n+1) {
+				margin-bottom: 3rem;
+			}
+
+			&:nth-child(2n) {
+				margin-top: 3rem;
+			}
+		}
+	}
+
+	.reviews {
+
+		&__content {
+			min-height: 0;
+			height: 13.5rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 890px) {
+
+	.header {
+		&__content {
+			width: 80%;
+		}
+
+		&__about {
+			align-items: flex-start;
+			justify-content: space-between;
+		}
+	}
+
+	.pricelist {
+		grid-template-columns: 100%;
+		row-gap: 15px;
+
+		.pricelist-item {
+
+			width: 85%;
+			margin: 0 auto;
+
+			&:nth-child(2n+1) {
+				margin-bottom: 0;
+			}
+
+			&:nth-child(2n) {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.about {
+		&__img {
+			width: 100%;
+		}
+	}
+
+	.reviews {
+		&__block {
+			padding-bottom: 1.3rem;
+		}
+	}
+
+	.services {
+		&__grid {
+			grid-template-columns: 50% 50%;
+		}
+	}
+
+	.contacts {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+
+		&__map {
+			height: 17rem;
+		}
+
+		&__requisite {
+			line-height: 2.5rem;
+		}
+	}
+
+	.callback {
+		&::before {
+			display: none;
+		}
+
+		.form {
+			width: 90%;
+		}
+	}
+}
+
+@media only screen and (max-width: 730px) {
+
+	.content {
+		width: 80%;
+	}
+
+	.nav {
+		.logo {
+			font-size: 2rem;
+		}
+
+		&__item {
+			font-size: 1.1rem;
+
+			.link {
+				&:hover {
+					font-size: 1.2rem;
+				}
+			}
+		}
+	}
+
+	.header {
+		&__content {
+			width: 80%;
+		}
+
+		&__title {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	:root {
+		font-size: 11px;
+	}
+
+	.header {
+		&__about {
+			display: none;
+		}
+	}
+
+	.footer {
+		display: none;
+	}
+}

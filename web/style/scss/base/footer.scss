@@ -5,36 +5,36 @@
 	color: white;
 	padding-bottom: 2rem 0;
 
-	.footer__content {
-		margin: 0 auto;
-		width: 80%;
+	&__content {
+		margin: 10px auto;
+		width: $content_width;
 		display: grid;
 		grid-template-columns: 33% 33% 33%;
 	}
 
-	.footer__number {
+	&__number {
 		color: $color_shadow;
 	}
 
-	.footer__category {
+	&__category {
 		color: $color_shadow;
 	}
 
-	.footer__service {
+	&__service {
 		margin-bottom: 10px;
 	}
 
-	.footer_category {
-		margin-bottom: 30px;
-	}
-
-	.footer__block {
+	&__block {
 		margin-left: 5rem;
 	}
 
-	.footer__callback {
+	&__callback {
 		display: flex;
 		flex-direction: column;
+	}
+
+	&_category {
+		margin-bottom: 30px;
 	}
 }
 
